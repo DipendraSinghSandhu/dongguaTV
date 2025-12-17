@@ -115,10 +115,14 @@ app.use(express.static('public'));
 
 // ========== 路由定义 ==========
 
+const IS_VERCEL = !!process.env.VERCEL;
+
 app.get('/api/config', (req, res) => {
     res.json({
         tmdb_api_key: process.env.TMDB_API_KEY,
-        tmdb_proxy_url: process.env.TMDB_PROXY_URL
+        tmdb_proxy_url: process.env.TMDB_PROXY_URL,
+        // Vercel 环境下禁用本地图片缓存，防止写入报错
+        enable_local_image_cache: !IS_VERCEL
     });
 });
 

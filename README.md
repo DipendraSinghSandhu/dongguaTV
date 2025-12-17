@@ -322,6 +322,7 @@ touch db.json cache.db
 
 # 2. 写入默认配置 (可选，如果不写则为空)
 echo '{"sites":[]}' > db.json
+mkdir -p cache/images
 
 # 3. 完整配置启动
 docker run -d -p 3000:3000 \
@@ -329,6 +330,7 @@ docker run -d -p 3000:3000 \
   -e TMDB_PROXY_URL="https://tmdb-proxy.your-name.workers.dev" \
   -v $(pwd)/db.json:/app/db.json \
   -v $(pwd)/cache.db:/app/cache.db \
+  -v $(pwd)/cache/images:/app/public/cache/images \
   --name donggua-tv \
   --restart unless-stopped \
   ghcr.io/ednovas/dongguatv:latest
